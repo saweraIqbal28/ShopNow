@@ -30,4 +30,4 @@ jobs:
         run: npm run typecheck --if-present
 
       - name: Run tests
-        run: npm test -- --watchAll=false --ci
+run: npm test -- --watchAll=false --ci --forceExit
